@@ -1,0 +1,55 @@
+/*
+ * This is a manifest file that'll be compiled into application.css.
+ *
+ * With Propshaft, assets are served efficiently without preprocessing steps. You can still include
+ * application-wide styles in this file, but keep in mind that CSS precedence will follow the standard
+ * cascading order, meaning styles declared later in the document or manifest will override earlier ones,
+ * depending on specificity.
+ *
+ * Consider organizing styles into separate files for maintainability.
+ */
+.form-actions {
+    margin-top: 16px;
+}
+
+.auth-links {
+    margin-top: 24px;
+}
+
+.profile-table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.profile-table th,
+.profile-table td{
+    border:1px solid #999
+}
+
+.profile-table th {
+  width: 30%;
+  text-align: center;
+}
+
+.profile-table td {
+  text-align: left;
+}
+
+.logout-area {
+  margin-top: 16px;
+}
+
+.logout-link {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #0000ee;
+  font: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.flash-error,
+#error_explanation {
+  color: red;
+}
